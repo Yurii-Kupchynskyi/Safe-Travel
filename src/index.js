@@ -4,7 +4,6 @@ import { App } from 'components/App';
 import './index.css';
 import { ThemeProvider } from 'styled-components';
 import { theme } from './theme';
-import { Global } from 'theme-ui';
 import { GlobalStyle } from 'globalStyle';
 
 ReactDOM.createRoot(document.getElementById('root')).render(

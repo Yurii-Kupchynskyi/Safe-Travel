@@ -61,7 +61,7 @@ export const Item = styled.li`
   flex-direction: column;
   height: 70px;
   flex-basis: calc(100% / 3);
-  border: ${({ theme }) => theme.border.thin};
+  border: ${({ theme }) => theme.borders.thin};
 
   justify-content: center;
   align-items: center;

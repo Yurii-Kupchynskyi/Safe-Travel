@@ -14,15 +14,6 @@ export const theme = {
     l: `32px`,
     xl: `64px`,
   },
-  border: {
-    none: 'none',
-    standart: '2px solid gray',
-    thin: '1px solid #e4e9f0',
-  },
-  radii: {
-    none: '0',
-    normal: '4px',
-  },
 
   fonts: {
     body: 'system-ui, sans-serif',
@@ -37,5 +28,16 @@ export const theme = {
   lineHeights: {
     body: 1.5,
     heading: 1.125,
+  },
+  borders: {
+    none: 'none',
+    standart: '2px solid gray',
+    thin: '1px solid #e4e9f0',
+  },
+  radii: {
+    none: '0',
+    small: '2px',
+    normal: '4px',
+    round: '50%',
   },
 };
